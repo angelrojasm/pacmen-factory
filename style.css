@@ -1,0 +1,31 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.action {
+	width: 225px;
+	height: 50px;
+	color: white;
+	background-color: transparent;
+	border: none;
+	padding-bottom: 10px;
+	border-bottom: 2px solid white;
+	font-size: 32px;
+	font-family: 'Open Sans', 'Helvetica Neue';
+	margin: 0 20px;
+	cursor: pointer;
+}
+#game {
+	height: 100vh;
+	width: 100vw;
+	background-color: #6e72fc;
+	background-image: linear-gradient(315deg, #6e72fc 0%, #ad1deb 74%);
+}
+
+#action-buttons {
+	width: fit-content;
+	margin: 0 auto;
+	padding-top: 2.5%;
+}
